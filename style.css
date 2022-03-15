@@ -33,6 +33,7 @@
     background-size: cover;
     color: white;
     text-align: center;
+    backround-attachment:fixed;
   }
   
   .top-wrapper h1 {

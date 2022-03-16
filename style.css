@@ -215,6 +215,7 @@
   /* animation */
   .swiper {
     width: 950px;
+    display: flex;
   }
 
   .body-swiper {
@@ -361,3 +362,37 @@
   }
 
   /* animation */
+  @media (max-width: 1000px) {
+    .swiper {
+      width: 900px;
+    }
+    section .card .card-image {
+      height: 140px;
+      width: 140px;
+    }
+  }
+
+  @media (max-width: 670px) {
+    .swiper {
+      width: 600px;
+    }
+    section .card .card-image {
+      height: 100px;
+      width: 100px;
+      padding: 5px;
+    }
+    
+    section .card .card-image img {
+      height: 100%;
+      width: 100%;
+    }
+  
+    .card .button button {
+      padding: 8px 10px;
+    }
+
+    .card .media-icons {
+      top: 8px;
+      right: 10px;
+    }
+  }

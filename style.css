@@ -116,18 +116,19 @@
     background-color: rgba(255, 255, 255, 0.3);
   }
   
-  /* .lesson-wrapper {
-    padding-bottom: 80px;
-    padding-left: 5%;
-    padding-right: 5%;
-    background-color: #f7f7f7;
-    text-align: center;
-  } */
+  .lesson-wrapper {
+    position: relative;
+  }
   
   .heading {
     padding-top: 80px;
     padding-bottom: 50px;
-    color: #5f5d60;
+    color: #5f5d60;margin-left: 42%;
+  }
+
+  .msg-heading {
+    padding-top: 80px;
+    padding-bottom: 50px;
   }
   
   .heading h2 {
@@ -165,6 +166,9 @@
   .message-wrapper {
     border-bottom: 1px solid #eee;
     padding-bottom: 80px;
+    text-align: center;
+  }
+  .message-wrapper .heading {
     text-align: center;
   }
   
@@ -348,6 +352,7 @@
     opacity: 0.7;
     color: #7d2ae8;
     transition: all 0.3s ease;
+    margin-top: 5%;
   }
 
   .swiper-button-next:hover, .swiper-button-prev:hover {
